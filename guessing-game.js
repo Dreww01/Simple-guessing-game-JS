@@ -12,7 +12,7 @@ if (shouldWePlay.toLowerCase() === 'yes') {
             if (shapeOfEarth === "circle") {
                 console.log("Good, you were listening in school! ");
                 const typeOfAnimal = userInput('Is a dog a reptile? (yes/no) ').toLowerCase();
-                if (typeOfAnimal === "no") { // Changed to "no" because dogs are not reptiles
+                if (typeOfAnimal === "no") {
                     console.log("You are a genius! ");
                 } else {
                     console.log("Jezz! Who was your teacher! ");
